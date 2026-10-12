@@ -1,0 +1,3 @@
+Linea 1: Practica de comandos Linux en Git Bash
+Linea 2: Aprendiendo a crear, copiar y mover archivos
+Linea 3: Redireccion y tuberias en la terminal

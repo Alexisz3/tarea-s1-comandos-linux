@@ -1,0 +1,24 @@
+    1  pwd
+    2  mkdir proyecto_comandos
+    3  cd proyecto_comandos
+    4  mkdir documentos imagenes scripts
+    5  ls -l
+    6  cd documentos
+    7  touch notas.txt
+    8  echo "Linea 1: Practica de comandos Linux en Git Bash" > notas.txt
+    9  echo "Linea 2: Aprendiendo a crear, copiar y mover archivos" >> notas.txt
+   10  echo "Linea 3: Redireccion y tuberias en la terminal" >> notas.txt
+   11  cat notas.txt
+   12  cp notas.txt ../scripts/backup_notas.txt
+   13  ls ../scripts
+   14  mv ../scripts/backup_notas.txt ../imagenes/
+   15  ls ../scripts ../imagenes
+   16  touch resumen.txt
+   17  cat notas.txt > resumen.txt
+   18  echo "Linea 4: Linea agregada con >> sin sobrescribir" >> resumen.txt
+   19  cat resumen.txt
+   20  rm ../imagenes/backup_notas.txt
+   21  rmdir ../imagenes
+   22  cd ..
+   23  ls -R
+   24  history | cat > ../tarea-s1-kevin_patino.txt
